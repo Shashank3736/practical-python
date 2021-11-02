@@ -25,7 +25,7 @@ while principal > 0:
     total_paid = total_paid + principal
     principal = 0
 
-  print(month,total_paid, principal)
+  print(f'{month:>10d} {principal:10.2f} {total_paid:10.2f}')
 
 print('Total paid', round(total_paid, 2))
 print("Months: ", month)
